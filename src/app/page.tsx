@@ -1,19 +1,14 @@
-import { Roboto } from 'next/font/google'
 import Form from './components/form'
 import Title from './components/title'
 import { Main } from '@/styles/styledPage'
-
-const roboto = Roboto({
-    weight: '400',
-    subsets: ['latin'],
-    display: 'swap'
-})
+import Faq from './components/faq'
 
 export default function Home() {
     return (
-        <Main style={roboto.style}>
+        <Main>
             <Title />
             <Form />
+            <Faq />
         </Main>
     )
 }
