@@ -11,10 +11,10 @@ const FooterContainer = styled.footer`
     padding-block: 1.3rem;
     row-gap: .5rem;
     & #copyright{
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
     & #dev{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
     & a{
         color: #fff;

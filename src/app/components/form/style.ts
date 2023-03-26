@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 
-const FormContainer = styled.div`
+const FormContainer = styled.form`
         display: flex;
         justify-content: center;
         position: relative;

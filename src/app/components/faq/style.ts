@@ -1,5 +1,6 @@
 'use client'
 
+import { roboto } from "@/fonts";
 import styled from "styled-components";
 
 const FaqContainer = styled.div`
@@ -7,6 +8,7 @@ const FaqContainer = styled.div`
     font-size: 1.7rem;
     padding-bottom: 15rem;
     margin-top: 10rem;
+    ${roboto.style};
     & li:first-child{
         margin-top: 1rem;
     } 

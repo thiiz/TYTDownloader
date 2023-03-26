@@ -1,8 +1,8 @@
 import { FaqContainer } from "./style"
-import { roboto } from "@/fonts"
+
 export default function Faq() {
     return (
-        <FaqContainer style={roboto.style}>
+        <FaqContainer>
             <h1>FAQ of TYTDownloader</h1>
             <ol>
                 <li>

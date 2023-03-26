@@ -3,8 +3,8 @@ import { roboto } from "@/fonts";
 export default function Footer() {
     return (
         <FooterContainer style={roboto.style}>
-            <span>&copy; 2023 TYTDownloader. Todos os direitos reservados.</span>
-            <span>Desenvolvido por <a target="_blank" href="https://twitter.com/1ziht">thiz</a></span>
+            <span id='copyright'>&copy; 2023 TYTDownloader. Todos os direitos reservados.</span>
+            <span id='dev'>Desenvolvido por <a target="_blank" href="https://github.com/thiizz">thiz</a></span>
         </FooterContainer>
     )
 }
