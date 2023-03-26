@@ -1,6 +1,7 @@
 import { FaqContainer } from "./style"
 
 export default function Faq() {
+    const converte = "'CONVERTE';"
     return (
         <FaqContainer>
             <h1>FAQ of TYTDownloader</h1>
@@ -27,7 +28,7 @@ export default function Faq() {
                 </li>
                 <li>
                     <strong>Quantos arquivos posso converter ao mesmo tempo?</strong>
-                    <span>Quantos quiser. Abra o TYTDownloader em vários guias do navegador. Cole um endereço de vídeo em um guia e clique em "CONVERTE"; cole outro endereço no segundo guia e clique em "CONVERTE"; cole um terceiro...</span>
+                    <span>Quantos quiser. Abra o TYTDownloader em vários guias do navegador. Cole um endereço de vídeo em um guia e clique em {converte} cole outro endereço no segundo guia e clique em {converte} cole um terceiro...</span>
                 </li>
             </ol>
         </FaqContainer>

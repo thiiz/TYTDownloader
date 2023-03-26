@@ -9,6 +9,10 @@ const FaqContainer = styled.div`
     padding-bottom: 15rem;
     margin-top: 10rem;
     ${roboto.style};
+    & li {
+        display: flex;
+        flex-direction: column;
+    }
     & li:first-child{
         margin-top: 1rem;
     } 
